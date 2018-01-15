@@ -1,0 +1,41 @@
+html { 
+    background: url(background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height:560px;
+
+
+}
+
+body{
+    background:none;
+    color:white;
+    overflow: hidden;
+   
+}
+
+#judul{
+    text-align:center;
+    padding-top: 14px;
+}
+
+
+#theObject {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: red;
+    margin-right: 200px;
+    position: relative;
+}
+
+#theObject2 {
+    height: 120px;
+    width: 120px;
+    border-radius: 5%;
+    background-color: rgb(72, 19, 218);
+    margin-right: 200px;
+    position: relative;
+}
