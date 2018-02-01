@@ -33,14 +33,17 @@ document.getElementById("theObject").onclick = function () {
     function munculWithDelay() {
         document.getElementById("theObject2").style.display = "block";
     }
-    setTimeout(munculWithDelay,800);
+    setTimeout(munculWithDelay,700);
 
     document.getElementById("theObject").style.display = "none";
-    document.getElementById("theObject").style.backgroundColor = acakWarna();
+    // document.getElementById("theObject").style.backgroundColor = acakWarna();
     document.getElementById("theObject").style.marginLeft = marginLeft + "px";
     document.getElementById("theObject").style.marginTop = marginTop + "px";
     document.getElementById("theObject").style.height = ukuran + "px";
     document.getElementById("theObject").style.width = ukuran + "px"; 
+
+    document.getElementsByClassName("coin").style.height = ukuran + "px";
+    document.getElementsByClassName("coin").style.width = ukuran + "px"; 
     
     mulaiHitung = new Date().getTime();
 
@@ -68,12 +71,15 @@ document.getElementById("theObject2").onclick = function () {
     function munculWithDelay() {
         document.getElementById("theObject").style.display = "block";
     }
-    setTimeout(munculWithDelay,800);
+    setTimeout(munculWithDelay,700);
     document.getElementById("theObject2").style.display = "none";
-    document.getElementById("theObject2").style.backgroundColor = acakWarna();
+    // document.getElementById("theObject2").style.backgroundColor = acakWarna();
     document.getElementById("theObject2").style.marginLeft = marginLeft + "px";
     document.getElementById("theObject2").style.marginTop = marginTop + "px";
     document.getElementById("theObject2").style.height = ukuran + "px";
     document.getElementById("theObject2").style.width = ukuran + "px";
+
+    document.getElementsByClassName("coin").style.height = ukuran + "px";
+    document.getElementsByClassName("coin").style.width = ukuran + "px"; 
     
 }
